@@ -101,12 +101,11 @@ export default function Home() {
         <div className="flex flex-col h-full justify-center backdrop-blur-xs text-primary p-5 md:p-20">
           <div className="flex flex-col md:w-1/2 text-center p-5 gap-3 ">
             <h1 className="title ">Tattoo rate</h1>
-            <p className="text-lg md:text-xl">Charge by piece</p>
             <AnimationOnScroll
               animateIn="animate__bounceIn"
               animateOut="animate__fadeOut"
             >
-              <p className="text-4xl md:text-5xl">Start from $150</p>
+              <p className="text-4xl md:text-5xl">Charge by piece</p>
             </AnimationOnScroll>
             <p className="text-sm md:text-lg">
               Accept black & grey, white and color tattoo request.{" "}
@@ -137,7 +136,8 @@ export default function Home() {
                 src="img/ig_icon.png"
                 width={20}
                 alt="instagram icon"
-              /> miki.s_tattoo
+              />{" "}
+              miki.s_tattoo
             </a>
           </p>
           <button className="btn btn-accent btn-outline border-2 m-3 my-5 ">
